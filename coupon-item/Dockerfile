@@ -1,4 +1,4 @@
 FROM adoptopenjdk/openjdk11
 WORKDIR /
-ADD target/*.jar app.jar
-CMD java -jar app.jar
+ADD coupon-item-0.0.1-SNAPSHOT.jar coupon-item-0.0.1-SNAPSHOT.jar
+CMD java -jar coupon-item-0.0.1-SNAPSHOT.jar
