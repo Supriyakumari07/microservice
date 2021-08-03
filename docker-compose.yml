@@ -7,8 +7,8 @@ services:
         networks: 
             - app-network
     
-    menu-item-service:
-        image: menu-item-service
+    menu-item:
+        image: menu-item
         ports: 
             - "5100:5100"
         environment: 
@@ -19,7 +19,7 @@ services:
             - app-network
 
     coupon-service:
-        image: coupon-service
+        image: coupon-item
         ports: 
             - "5200:5200"
         environment: 
